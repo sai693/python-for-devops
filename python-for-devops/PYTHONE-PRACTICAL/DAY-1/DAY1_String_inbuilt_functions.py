@@ -1,10 +1,12 @@
+
+import sys
 print ("\n MODULES USED \n DAY1_DataTypes.py\n")
 import DAY1_DataTypes as basic_cal
 print ("\nDAY1_Regular_expression.py\n")
 import DAY1_Regular_expression as basic_regx
 
-basic_cal.addition()
-basic_cal.subtraction()
+basic_cal.add()
+basic_cal.sub()
 
 basic_regx
 print("Hello, World!")
@@ -67,8 +69,8 @@ else:
  
     
 # Float variables
-num1 = 157.0
-num2 = 2.0
+num1 = sys.argv[1]
+num2 = 2
 
 # Basic Arithmetic
 result1 = num1 + num2
