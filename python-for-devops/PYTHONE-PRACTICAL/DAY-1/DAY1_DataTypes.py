@@ -88,5 +88,3 @@ print(subtraction(20,2))
 print(multiplication(20,2))
 print(division_reaminder(20,2))
 print(division_question(20,2))
-
-
