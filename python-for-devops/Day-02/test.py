@@ -7,9 +7,12 @@ print (a.upper())
 b = "Gurugubelli"
 print (a.upper() + " " + b.upper())
 text = "its match the quick pattern"
-pattern = r"quick"
+pattern = r"its match the quick pattern"
 match = re.match(pattern, text)
 if match:
     print("match found", match.group())
 else:
     print("Not Found")
+
+print (text," ", len(text))
+print(" ",text.upper())
