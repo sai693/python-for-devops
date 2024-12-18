@@ -1,3 +1,3 @@
-import testbc as basic_calc
+import calc as basic_calc
 
 basic_calc
