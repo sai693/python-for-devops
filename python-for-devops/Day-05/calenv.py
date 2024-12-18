@@ -1,4 +1,5 @@
 import sys
+import os
 
 def add(num1, num2):
     a=num1 + num2
@@ -11,3 +12,5 @@ num2 = int(sys.argv[3])
 if operation == "add":
     output = add(num1,num2)
     print(output)
+
+print(os.getenv("pass"))
