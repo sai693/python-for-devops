@@ -1,0 +1,24 @@
+num = [1,2,3,4,5]
+for num in num:
+    if num == 3:
+        continue
+    print(num)
+
+num = [1,2,3,4,5]
+for num in num:
+    if num == 3:
+        break
+    print(num)
+
+log_file = [
+   "INFO: Operation successful",
+   "ERROR: File not found",
+   "DEBUG: Connection established",
+   "ERROR: Database connection failed",
+]
+
+for line in log_file:
+   if "ERROR" in line:
+       print(line)
+       if line != "ERROR":
+           break
